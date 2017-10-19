@@ -1,4 +1,4 @@
 RewriteEngine on
-RewriteBase /mvc/7/html
+RewriteBase /projects/cse3101/lab3/7/html
 RewriteRule ^lectures$ index.php?page=lectures [L]
 RewriteRule ^lecture/(.*)$ index.php?page=lecture&n=$1 [L]
